@@ -7,6 +7,7 @@ RUN apt-get update && \
     curl \
     unzip \
     ca-certificates \
+    jq \
     && rm -rf /var/lib/apt/lists/*
 
 # Installer AWS CLI v2
